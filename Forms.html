@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+   <fieldset>
+    <legend><b>Personal Details</b></legend>
+    <form action="Server.html" autocomplete="on" method="get">
+    
+         <label for="Name">First Name</label>
+         <input type="text" name="FName" id="Name" placeholder="Enter First Name" required maxlength="10">
+         <br><br>
+
+         <label for="">Last Name</label>
+         <input type="text" name="LName" id="" placeholder="Enter Last Name" required>
+         <br><br>
+
+         <label for="">Mobile Number</label>
+         <input type="tel" name="ph_no" id="" placeholder="Enter Mobile No" >
+         <br><br>
+
+         <label for="">Email</label>
+         <input type="email" name="Email" id="" placeholder="Enter Your Email" required>
+         <br><br>
+
+         <label for="">Password</label>
+         <input type="password" name="Password" id="" placeholder="Enter Password" >
+         <br><br>
+
+         <label for="">Confirm Password</label>
+         <input type="password" name="c_Password" id="">
+         <br><br>
+
+         <label for="">DOB</label>
+         <input type="date" name="DOB" id="">
+         <br><br>
+
+         <label >Age</label>
+         <input type="number" name="Age"  min="18" max="40">
+         <br><br>
+
+         <label for="">Gender</label>
+         <input type="radio" name="gender" value="Male" checked>Male
+         <input type="radio" name="gender" value="Female" >Female
+         <input type="radio" name="gender" value="Others">Others
+         <br><br>    
+
+         <label for="">Select Country</label>
+         <select name="Country" id="">
+            <option value="">Select Country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option  disabled value="UK">UK</option>
+            <option value="Australia">Australia</option>
+            <option value="France">France</option>
+         </select>
+         <br><br>
+         <label for="">Upload Image</label>
+         <input type="file" name="Image" id="">
+         <br><br>
+          <label >ReadOnly</label>
+          <input type="text"  readonly placeholder="Personal Details Form">
+         <br><br>
+
+         <input type="reset" name="" id="">
+         <br><br>
+         <button type="submit">Submit Form</button>  
+         </form>
+    </fieldset>        <br><br>
+          
+         <fieldset>
+            <legend><b>Course Details</b></legend>
+            <form action="">
+         <label for="">Select Course</label>
+         <select name="Course" id="">
+            <option value="PFS">Python Full Stack</option>
+            <option value="JFS">Java Full Stack</option>
+            <option value="">AI/ML</option>
+            <option value="">Data Analytics</option>
+         </select>
+
+         <br><br>
+         <label for="">Delivery Mode</label>
+         <input type="radio" name="mode" id="">Online
+         <input type="radio" name="mode" id="">Offline
+         <br><br>
+         
+         <label for="">Institute Name</label>
+         <input type="text" name="Name" id="" placeholder="ThopsTech">
+         <br><br>
+
+          <label for="">Comments</label>  <br>
+         <textarea name="Comments" rows="5" cols="10"></textarea>
+         <br><br>
+
+         <label for="">Check Box</label> <br>
+         <input type="checkbox" name="checkbox">I Agree
+         <br><br>
+
+         <input type="submit" name="reset" id="">              <!-- can't change name inside -->
+         <br><br>
+
+         <button type="submit">Submit Form</button>               <!-- can modify name inside-->
+         <br><br>
+         </form>
+    </fieldset>
+          
+
+        
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <style>
+        /* Global & Layout Styles using explicitly requested properties */
+        body {
+            background-color:black;
+            color: whitesmoke;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        header {
+            background-color: blue;
+            padding: 20px;
+        }
+
+        nav a {
+            color: aqua;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        h1 {
+            color: aquamarine;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: aqua;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        h3 {
+            color: wheat;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        p {
+            color: lightcoral;
+            font-size: 16px;
+        }
+
+        /* Elements & Component Items */
+        .skill-item {
+            background-color: #1e293b;
+            color:goldenrod;
+            font-weight: bold;
+            font-size: 14px;
+            padding: 10px;
+        }
+
+        .project-card {
+            background-color: #1e293b;
+            padding: 25px;
+        }
+
+        .project-tag {
+            background-color: #0f172a;
+            color: #38bdf8;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        .project-link {
+            color: #38bdf8;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        footer {
+            background-color: #1e293b;
+            color: #94a3b8;
+            font-size: 14px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero / Intro -->
+    <section>
+        <h1>Kishore</h1>
+        <p>Full-Stack Software Engineer building exceptional digital experiences.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I enjoy creating things that live on the internet. I build scalable, clean, and interactive web applications using modern web ecosystems.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Core Skills</h2>
+        <p>
+            <span class="skill-item">HTML5</span>
+            <span class="skill-item">CSS3</span>
+            <span class="skill-item">JavaScript</span>
+            <span class="skill-item">React</span>
+            <span class="skill-item">Python</span>
+            <span class="skill-item">Git</span>
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        
+        <!-- Project Card -->
+        <div class="project-card">
+            <h3>E-Commerce Platform</h3>
+            <p>A fully functional e-commerce storefront with a custom shopping cart backend and payment systems.</p>
+            <p>
+                <span class="project-tag">React</span>
+                <span class="project-tag">Node.js</span>
+            </p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+
+        <p></p> <!-- Spacing element -->
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+            <h3>Task Dashboard</h3>
+            <p>A real-time Kanban-style application for tracking team priorities and checking timeline progress analytics.</p>
+            <p>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Firebase</span>
+            </p>
+            <a href="#" class="project-link">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>I'm always looking for new opportunities. Feel free to reach out via email.</p>
+        <p><a href="mailto:kishore@gmail.com" class="project-link">kishore@gmail.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Kishore. Built with specified Html & CSS properties.</p>
+    </footer>
+
+</body>
+</html>
